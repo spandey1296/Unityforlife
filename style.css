@@ -1,0 +1,65 @@
+.footer{
+    width: 1500px;
+}
+
+.fa 
+{
+      padding: 20px;
+      font-size: 30px;
+      width: 70px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+ }
+ 
+ .fa:hover {
+     opacity: 0.7;
+ }
+ 
+ .fa-facebook {
+   background: #3B5998;
+   color: white;
+ }
+ 
+
+ .fa-google {
+   background: #dd4b39;
+   color: white;
+ }
+ 
+ .fa-linkedin {
+   background: #007bb5;
+   color: white;
+ }
+ 
+ .fa-youtube {
+   background: #bb0000;
+   color: white;
+ }
+ 
+ .fa-instagram {
+   background: #e024b8;
+   color: white;
+ }
+ 
+ .fa-android {
+   background: #a4c639;
+   color: white;
+ }
+
+ .news{
+    width: 649px; 
+    height:320px;
+    border:10px solid;
+    margin: 20px;
+ }
+ .newz_head{
+     text-align: center;
+     background-color: aqua;
+     color: crimson;
+    
+ }
+
+
+ 
