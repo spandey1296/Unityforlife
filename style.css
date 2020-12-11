@@ -4,9 +4,9 @@
 
 .fa 
 {
-      padding: 20px;
+      padding: 15px;
       font-size: 30px;
-      width: 70px;
+      width: 40px;
       text-align: center;
       text-decoration: none;
       margin: 5px 2px;
@@ -22,8 +22,9 @@
    color: white;
  }
  
+ 
 
- .fa-google {
+ .fa-twitter{
    background: #dd4b39;
    color: white;
  }
@@ -39,7 +40,7 @@
  }
  
  .fa-instagram {
-   background: #e024b8;
+   background: #f80476;
    color: white;
  }
  

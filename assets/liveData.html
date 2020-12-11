@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Covid 19 live data</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<style>
+body
+{
+    background-image: url('../Images/corona.jpg');
+}
+  
+table, th, td 
+{
+  border: 1px solid rgb(6, 243, 252);
+}
+</style>
+ </head> <body>
+    <div class="container">
+        <h1 style = "color:yellow;" class="text-center mt-5"><U>Covid 19 Live Data Table</U></h1>
+<br><br>
+<table style = "color:yellow;" class="table">
+<thead>
+  <tr>
+    <th>Total Cases</th>
+    <th>Total Deaths</th> 
+    <th>Total Recovered</th>
+  </tr>
+</thead>
+</tbody>
+  <tr id="data"></tr>
+</tbody>
+</table>
+<br>
+<button onclick="refreshData()" class="btn btn-danger btn-block">Refresh Data</button>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+<script>
+init()
+function init(){
+var url ="https://api.covid19api.com/summary"
+var data=' '
+$.get(url,function(data)
+{
+   console.log(data.Global)
+   data = `
+   <td>
+    ${
+        data.Global.TotalConfirmed
+    }
+   </td>
+   <td>
+    ${
+        data.Global.TotalDeaths
+    }
+   </td>
+   <td>
+    ${
+        data.Global.TotalRecovered
+    }
+   </td>`
+   $("#data").html(data)
+})
+}
+function refreshData()
+{
+   clearData()
+   init()
+}
+function clearData()
+{
+   $("#data").empty()
+}
+</script>
+</html>
