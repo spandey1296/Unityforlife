@@ -44,23 +44,67 @@
    color: white;
  }
  
- .fa-android {
-   background: #a4c639;
+ .fa-github {
+   background: #d4f181;
    color: white;
  }
 
- .news{
+ /*.news{
     width: 649px; 
     height:320px;
     border:10px solid;
     margin: 20px;
- }
+    background-color: rgb(231, 255, 203);
+ }*/
+ .news{
+  width: 439px; 
+  height:320px;
+  border:10px solid;
+  margin: 20px;
+  background-color:rgb(231, 255, 203);
+}
+ 
+ .news1{
+  width: 383px; 
+  height:320px;
+  border:10px solid;
+  margin: 20px;
+  background-color:rgb(231, 255, 203);
+}
+.news2{
+  width: 433px; 
+  height:320px;
+  border:10px solid;
+  margin: 20px;
+  background-color:rgb(231, 255, 203);
+}
  .newz_head{
      text-align: center;
-     background-color: aqua;
+     background-color: rgb(115, 255, 0);
      color: crimson;
     
  }
+ .fa-whatsapp {
+  background: #00bb19;
+  color: white;
+}
 
 
- 
+#container{
+  text-align: center;
+}
+
+
+.box {
+  position: relative;
+  width: 100%;
+  max-width: 250px;
+}
+
+.box .btn {
+  position: absolute;
+  top: 89%;
+  left: 117%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(253, 250, 245);
+}
