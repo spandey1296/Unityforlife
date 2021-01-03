@@ -61,7 +61,7 @@
   height:320px;
   border:10px solid;
   margin: 20px;
-  background-color:rgb(231, 255, 203);
+  background-color: chartreuse;
 }
  
  .news1{
@@ -69,14 +69,14 @@
   height:320px;
   border:10px solid;
   margin: 20px;
-  background-color:rgb(231, 255, 203);
+  background-color: chartreuse;
 }
 .news2{
   width: 433px; 
   height:320px;
   border:10px solid;
   margin: 20px;
-  background-color:rgb(231, 255, 203);
+  background-color: chartreuse;
 }
  .newz_head{
      text-align: center;
@@ -105,6 +105,15 @@
   position: absolute;
   top: 89%;
   left: 117%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(253, 250, 245);
+}
+
+.box .btn1 {
+  width: 130px;
+  position: absolute;
+  top: 82%;
+  left: 140%;
   transform: translate(-50%, -50%);
   background-color: rgb(253, 250, 245);
 }
